@@ -7,7 +7,7 @@ const wordCounter = (value) => {
   if (value) {
     value = value.trim();
     let wordCounter = value.split(/\s+/).length; //NOT PERFECT !!!!!! REGEX????
-    wordCount.innerHTML = `Word Count: ${wordCounter}`;
+    wordCount.innerHTML = `ya ass got this many words: ${wordCounter}`;
   } else {
     // if the value is empty, set the error message value to "Please input text"
     error.innerHTML = "please input your text dawg like"; // UPDATE THIS
