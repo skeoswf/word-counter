@@ -28,7 +28,10 @@ const textarea = document.querySelector("textarea");
 const form = document.querySelector("form");
 const error = document.querySelector("#error");
 const wordCount = document.querySelector("#word-count");
+
 const toggleButton = document.querySelector("#bg-switch");
+const submitButton = document.querySelector("#submit-button");
+const clearButton = document.querySelector("#clear-button");
 
 const body = document.querySelector("body");
 
@@ -48,4 +51,7 @@ form.addEventListener("reset", () => {
 
 toggleButton.addEventListener("click", (event) => {
   body.classList.toggle("dark-mode");
+  toggleButton.classList.toggle("button-dark-mode");
+  submitButton.classList.toggle("button-dark-mode");
+  clearButton.classList.toggle("button-dark-mode");
 });

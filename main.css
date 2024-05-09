@@ -1,8 +1,20 @@
 body {
-  background-color: white;
+  background-color: beige;
+  color: rgb(35, 39, 39);
+  text-align: center;
+}
+
+button {
+  background-color: rgb(35, 39, 39);
+  color: beige;
 }
 
 .dark-mode {
   background-color: rgb(35, 39, 39);
   color: beige;
+}
+
+.button-dark-mode {
+  background-color: beige;
+  color: rgb(35, 39, 39);
 }
