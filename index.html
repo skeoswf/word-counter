@@ -8,19 +8,29 @@
   </head>
 
   <body class="dark-mode">
-    <h1>Word Counter</h1>
-    <button id="bg-switch" class="button-dark-mode">toggle mode</button>
+    <h1>i count how many words u be saying</h1>
+    <button id="bg-switch" class="button-dark-mode">toggle theme</button>
     <form>
-      <textarea placeholder="Place your words here..."></textarea>
-      <button id="submit-button" type="submit" class="button-dark-mode">
-        Submit
-      </button>
-      <button id="clear-button" type="reset" class="button-dark-mode">
-        Clear
-      </button>
+      <textarea placeholder="mayne jus type something alr"></textarea>
+      <div id="button-wrapper">
+        <button
+          id="submit-button"
+          type="submit"
+          class="button-dark-mode form-button"
+        >
+          submit
+        </button>
+        <button
+          id="clear-button"
+          type="reset"
+          class="button-dark-mode form-button"
+        >
+          clear
+        </button>
+      </div>
     </form>
-    <div id="error" class="error"></div>
-    <div id="word-count"></div>
+    <div id="error" class="error bottom-text"></div>
+    <div id="word-count" class="bottom-text"></div>
   </body>
   <script src="main.js"></script>
 </html>
