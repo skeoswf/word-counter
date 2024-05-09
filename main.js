@@ -30,6 +30,8 @@ const error = document.querySelector("#error");
 const wordCount = document.querySelector("#word-count");
 const toggleButton = document.querySelector("#bg-switch");
 
+const body = document.querySelector("body");
+
 // These are event listeners. We will focus on them later in the course
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // the default behavior of a form is to reload the page, we do not want that so we want to prevent that behavior
@@ -45,5 +47,5 @@ form.addEventListener("reset", () => {
 });
 
 toggleButton.addEventListener("click", (event) => {
-  toggleMode(event.target.innerHTML);
+  body.classList.toggle("dark-mode");
 });
